@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE683614234148B40056080D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE683613234148B40056080D /* AppDelegate.swift */; };
+		FE683616234148B40056080D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE683615234148B40056080D /* GameScene.sks */; };
+		FE683618234148B40056080D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE683617234148B40056080D /* Actions.sks */; };
+		FE68361A234148B40056080D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE683619234148B40056080D /* GameScene.swift */; };
+		FE68361C234148B40056080D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE68361B234148B40056080D /* GameViewController.swift */; };
+		FE68361F234148B40056080D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE68361D234148B40056080D /* Main.storyboard */; };
+		FE683621234148B60056080D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE683620234148B60056080D /* Assets.xcassets */; };
+		FE683624234148B60056080D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE683622234148B60056080D /* LaunchScreen.storyboard */; };
+		FE68362F234148B70056080D /* Gud_GamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE68362E234148B70056080D /* Gud_GamTests.swift */; };
+		FE68363A234148B70056080D /* Gud_GamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE683639234148B70056080D /* Gud_GamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE68362B234148B70056080D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE683608234148B40056080D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE68360F234148B40056080D;
+			remoteInfo = "Gud Gam";
+		};
+		FE683636234148B70056080D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE683608234148B40056080D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE68360F234148B40056080D;
+			remoteInfo = "Gud Gam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE683610234148B40056080D /* Gud Gam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gud Gam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE683613234148B40056080D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE683615234148B40056080D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FE683617234148B40056080D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FE683619234148B40056080D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FE68361B234148B40056080D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FE68361E234148B40056080D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE683620234148B60056080D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE683623234148B60056080D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE683625234148B60056080D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE68362A234148B70056080D /* Gud GamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gud GamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE68362E234148B70056080D /* Gud_GamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gud_GamTests.swift; sourceTree = "<group>"; };
+		FE683630234148B70056080D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE683635234148B70056080D /* Gud GamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gud GamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE683639234148B70056080D /* Gud_GamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gud_GamUITests.swift; sourceTree = "<group>"; };
+		FE68363B234148B70056080D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE68360D234148B40056080D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE683627234148B70056080D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE683632234148B70056080D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE683607234148B40056080D = {
+			isa = PBXGroup;
+			children = (
+				FE683612234148B40056080D /* Gud Gam */,
+				FE68362D234148B70056080D /* Gud GamTests */,
+				FE683638234148B70056080D /* Gud GamUITests */,
+				FE683611234148B40056080D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE683611234148B40056080D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE683610234148B40056080D /* Gud Gam.app */,
+				FE68362A234148B70056080D /* Gud GamTests.xctest */,
+				FE683635234148B70056080D /* Gud GamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE683612234148B40056080D /* Gud Gam */ = {
+			isa = PBXGroup;
+			children = (
+				FE683613234148B40056080D /* AppDelegate.swift */,
+				FE683615234148B40056080D /* GameScene.sks */,
+				FE683617234148B40056080D /* Actions.sks */,
+				FE683619234148B40056080D /* GameScene.swift */,
+				FE68361B234148B40056080D /* GameViewController.swift */,
+				FE68361D234148B40056080D /* Main.storyboard */,
+				FE683620234148B60056080D /* Assets.xcassets */,
+				FE683622234148B60056080D /* LaunchScreen.storyboard */,
+				FE683625234148B60056080D /* Info.plist */,
+			);
+			path = "Gud Gam";
+			sourceTree = "<group>";
+		};
+		FE68362D234148B70056080D /* Gud GamTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE68362E234148B70056080D /* Gud_GamTests.swift */,
+				FE683630234148B70056080D /* Info.plist */,
+			);
+			path = "Gud GamTests";
+			sourceTree = "<group>";
+		};
+		FE683638234148B70056080D /* Gud GamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE683639234148B70056080D /* Gud_GamUITests.swift */,
+				FE68363B234148B70056080D /* Info.plist */,
+			);
+			path = "Gud GamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE68360F234148B40056080D /* Gud Gam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE68363E234148B70056080D /* Build configuration list for PBXNativeTarget "Gud Gam" */;
+			buildPhases = (
+				FE68360C234148B40056080D /* Sources */,
+				FE68360D234148B40056080D /* Frameworks */,
+				FE68360E234148B40056080D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gud Gam";
+			productName = "Gud Gam";
+			productReference = FE683610234148B40056080D /* Gud Gam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE683629234148B70056080D /* Gud GamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE683641234148B70056080D /* Build configuration list for PBXNativeTarget "Gud GamTests" */;
+			buildPhases = (
+				FE683626234148B70056080D /* Sources */,
+				FE683627234148B70056080D /* Frameworks */,
+				FE683628234148B70056080D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE68362C234148B70056080D /* PBXTargetDependency */,
+			);
+			name = "Gud GamTests";
+			productName = "Gud GamTests";
+			productReference = FE68362A234148B70056080D /* Gud GamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE683634234148B70056080D /* Gud GamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE683644234148B70056080D /* Build configuration list for PBXNativeTarget "Gud GamUITests" */;
+			buildPhases = (
+				FE683631234148B70056080D /* Sources */,
+				FE683632234148B70056080D /* Frameworks */,
+				FE683633234148B70056080D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE683637234148B70056080D /* PBXTargetDependency */,
+			);
+			name = "Gud GamUITests";
+			productName = "Gud GamUITests";
+			productReference = FE683635234148B70056080D /* Gud GamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE683608234148B40056080D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Get Swifty";
+				TargetAttributes = {
+					FE68360F234148B40056080D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					FE683629234148B70056080D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FE68360F234148B40056080D;
+					};
+					FE683634234148B70056080D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FE68360F234148B40056080D;
+					};
+				};
+			};
+			buildConfigurationList = FE68360B234148B40056080D /* Build configuration list for PBXProject "Gud Gam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE683607234148B40056080D;
+			productRefGroup = FE683611234148B40056080D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE68360F234148B40056080D /* Gud Gam */,
+				FE683629234148B70056080D /* Gud GamTests */,
+				FE683634234148B70056080D /* Gud GamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE68360E234148B40056080D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE68361F234148B40056080D /* Main.storyboard in Resources */,
+				FE683616234148B40056080D /* GameScene.sks in Resources */,
+				FE683621234148B60056080D /* Assets.xcassets in Resources */,
+				FE683624234148B60056080D /* LaunchScreen.storyboard in Resources */,
+				FE683618234148B40056080D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE683628234148B70056080D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE683633234148B70056080D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE68360C234148B40056080D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE68361A234148B40056080D /* GameScene.swift in Sources */,
+				FE68361C234148B40056080D /* GameViewController.swift in Sources */,
+				FE683614234148B40056080D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE683626234148B70056080D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE68362F234148B70056080D /* Gud_GamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE683631234148B70056080D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE68363A234148B70056080D /* Gud_GamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE68362C234148B70056080D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE68360F234148B40056080D /* Gud Gam */;
+			targetProxy = FE68362B234148B70056080D /* PBXContainerItemProxy */;
+		};
+		FE683637234148B70056080D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE68360F234148B40056080D /* Gud Gam */;
+			targetProxy = FE683636234148B70056080D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE68361D234148B40056080D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE68361E234148B40056080D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE683622234148B60056080D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE683623234148B60056080D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE68363C234148B70056080D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE68363D234148B70056080D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE68363F234148B70056080D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gud Gam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Le.Gud-Gam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE683640234148B70056080D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gud Gam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Le.Gud-Gam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE683642234148B70056080D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gud GamTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Le.Gud-GamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gud Gam.app/Gud Gam";
+			};
+			name = Debug;
+		};
+		FE683643234148B70056080D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gud GamTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Le.Gud-GamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gud Gam.app/Gud Gam";
+			};
+			name = Release;
+		};
+		FE683645234148B70056080D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gud GamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Le.Gud-GamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gud Gam";
+			};
+			name = Debug;
+		};
+		FE683646234148B70056080D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Gud GamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Le.Gud-GamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gud Gam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE68360B234148B40056080D /* Build configuration list for PBXProject "Gud Gam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE68363C234148B70056080D /* Debug */,
+				FE68363D234148B70056080D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE68363E234148B70056080D /* Build configuration list for PBXNativeTarget "Gud Gam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE68363F234148B70056080D /* Debug */,
+				FE683640234148B70056080D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE683641234148B70056080D /* Build configuration list for PBXNativeTarget "Gud GamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE683642234148B70056080D /* Debug */,
+				FE683643234148B70056080D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE683644234148B70056080D /* Build configuration list for PBXNativeTarget "Gud GamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE683645234148B70056080D /* Debug */,
+				FE683646234148B70056080D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE683608234148B40056080D /* Project object */;
+}
